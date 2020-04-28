@@ -10,6 +10,9 @@ export default () => (
     <Link to="/login" underlayColor="#f0f4f7" style={styles.navItem}>
       <Text>Login</Text>
     </Link>
+    <Link to="/shake" underlayColor="#f0f4f7" style={styles.navItem}>
+      <Text>Shake</Text>
+    </Link>
   </View>
 )
 

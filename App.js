@@ -83,6 +83,13 @@ export default function App() {
               <Login userToken={userToken} setUserToken={setUserToken} />
             )}
           />
+                    <Route
+            exact
+            path="/shake"
+            component={() => (
+              <Shake />
+            )}
+          />
           <Route
             exact
             path="/wiwaldo"
