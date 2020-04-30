@@ -18,8 +18,8 @@ const login = gql`
 `;
 
 export default ({ setUserToken, userToken }) => {
-  const [logintext, setLoginText] = useState("");
-  const [passwordText, setPasswordText] = useState("");
+  const [logintext, setLoginText] = useState("graph@reporn.com");
+  const [passwordText, setPasswordText] = useState("graph");
   return !userToken ? (
     <Mutation mutation={login}>
       {(loginMutation, { data }) => (
